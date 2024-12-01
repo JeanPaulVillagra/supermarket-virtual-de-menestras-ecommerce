@@ -1,0 +1,73 @@
+/* Inicio del archivo NavBar.css */
+
+/* Estilo para la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  /* Centra los elementos verticalmente */
+  background-color: #2c3e50;
+  color: white;
+  padding: 0 2rem;  /* Padding horizontal */
+  height: 150px;  /* Altura de la barra de navegación */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del logo: asegura que el logo ocupe toda la altura de la barra */
+.navbar-logo {
+  display: flex;
+  justify-content: flex-start; /* Alinea el logo a la izquierda */
+  align-items: center;  /* Centra verticalmente */
+  object-fit: contain; /* Evita que la imagen se distorsione */
+}
+
+/* Ajuste de la imagen del logo */
+.navbar-logo-image {
+  height: 125px;  
+  width: auto;   /* Mantiene la proporción de la imagen */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+  
+.navbar-links li {
+  margin: 0;
+}
+  
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+  
+.navbar-links a:hover {
+  color: #f39c12;
+}
+  
+.logout-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+  
+.logout-button:hover {
+  color: #e74c3c;
+}
+
+.admin-logout-button {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.admin-logout-button:hover {
+  color: #c0392b;
+}
+
+  
+/* Final del archivo NavBar.css */

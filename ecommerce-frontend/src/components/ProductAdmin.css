@@ -1,0 +1,37 @@
+/* Inicio del archivo ProductAdmin.css */
+.product-admin {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .product-form {
+    margin-bottom: 20px;
+  }
+  
+  .product-form input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .product-image {
+    width: 80px;
+    height: auto;
+  }
+  
+/* Final del archivo ProductAdmin.css */

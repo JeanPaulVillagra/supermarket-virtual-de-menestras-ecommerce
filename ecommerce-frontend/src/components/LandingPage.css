@@ -1,0 +1,37 @@
+/* Inicio del archivo LandingPage.css */
+
+/* Estilo general para la página */
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para el título */
+.landing-page h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el párrafo */
+.landing-page p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Contenedor de la imagen del banner */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Estilo para la imagen del banner */
+.banner-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Final del archivo LandingPage.css */
