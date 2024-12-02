@@ -1,5 +1,3 @@
-# supermarket-virtual-de-menestras-ecommerce
-Supermercado virtual de menestras usando React
 
 Plan de Desarrollo del Proyecto
 
@@ -49,25 +47,32 @@ Configurar una base de datos SQLite en Azure.
 Desplegar el backend en Azure.
 
 
+
 Creación y Ejecución del Proyecto
 
 
 
 Configuración del Proyecto
+cd supermarket-virtual-de-menestras-ecommerce
+cd ecommerce-backend
 Instalar Node.js, npm y librerías necesarias:
 brew install node
 npm install express sqlite3 cors body-parser
 npm install dotenv  # para cargar las variables de entorno en la app
+crear el archivo .env
+PORT=3001
+DB_PATH=./database.sqlite
+ADMIN_PASSWORD=Password5!
 
 Crear un proyecto React:
-mkdir ecommerce  # Crear carpeta raíz del proyecto
-cd ecommerce
-npx create-react-app ecommerce-frontend
+cd supermarket-virtual-de-menestras-ecommerce
 cd ecommerce-frontend
+crear el archivo .env
+REACT_APP_API_URL=http://localhost:3001/api
+
 
 Configurar el servidor backend:
-Volver a raíz del proyecto: ecommerce
-mkdir ecommerce-backend
+
 cd ecommerce-backend
 npm init -y
 .env
